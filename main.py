@@ -35,7 +35,7 @@ def read_frame():
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global cap
-    cap = cv2.VideoCapture("https://10.199.30.64:8080/video")
+    cap = cv2.VideoCapture("https://10.199.30.65:8080/video")
     print("Ready to capture!")
     t = Thread(target=read_frame)
     t.start()
