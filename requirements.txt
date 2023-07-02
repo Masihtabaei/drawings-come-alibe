@@ -7,3 +7,5 @@ Pillow==9.3.0
 kraken==4.2.0
 numpy==1.21.6
 fastapi==0.95.0
+qrcode
+fpdf
