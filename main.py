@@ -20,7 +20,7 @@ import time
 """ Drawings Come Alive """
 cap = None
 frame = None
-
+masih = 1
 
 
 def read_frame():
