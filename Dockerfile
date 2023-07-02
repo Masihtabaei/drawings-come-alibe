@@ -14,8 +14,8 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 # 
 
 
+COPY ./template_generator.py /code/
 COPY ./main.py /code/
-
 # 
 
 
